@@ -1,0 +1,32 @@
+.contenedor-poke {
+    display: none !important;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    .explorador {
+        background-color: $azul-div;
+        border-radius: 1rem;
+        border: solid 3px $gris;
+        position: relative;
+        width: 95%;
+        padding-bottom: .5rem;
+
+        &.seleccionado {
+            border: solid 3px rgb(249, 62, 62);
+        }
+    }
+
+    .explorador:after {
+        content: "";
+        display: block;
+    }
+
+    .nombre-pokemon {
+        width: 100%;
+        margin: 0;
+        color: $blanco;
+        font-weight: $bold;
+        font-size: 2rem;
+    }
+
+}

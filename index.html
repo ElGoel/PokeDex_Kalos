@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="imagen-header" >
+            <div class="overlay">
+                <nav class="botones">
+                    <button class="nav-top" type="button">x</button>
+                    <button class="nav-top" type="button"><i class="large material-icons">x</i></button>
+                    <button class="nav-top" type="button">x</button>
+                </nav>
+            </div>
+            <img class="pokeheader" src="src/img/imagen-header.png" alt="pokeheader">
+        </div>
+    <div id="paso-1" class="abrir">
+        <button data-paso="2" type="button">POKEDEX</button>
+    </div>
+                <div id="paso-2">
+                    <div id="explorer" class="contenedor-poke"></div>
+                </div>
+        <div class="imagen-footer">
+            <div class="overlay">
+                <nav class="botones-footer">
+                    <button class="nav-bot" type="button">x</button>
+                    <button class="nav-bot" type="button">x</button>
+                    <button class="cerrar" data-paso="1" type="button">x</button>
+                </nav>
+            </div>
+            <img class="pokefooter" src="src/img/imagen-footer.png" alt="pokefooter">
+        </div>
+    </div>
+
+    <script src="build/js/bundle.min.js"></script>
+
+</body>
+</html>

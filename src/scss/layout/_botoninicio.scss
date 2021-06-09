@@ -1,0 +1,21 @@
+.abrir {
+    display: flex;
+    background-color: $azul_fondo;
+    margin: 0 auto;
+    justify-content: center;
+    width: 1080px;
+    max-width: 100%;
+
+    button {
+        text-align: center;
+        height: 12vh;
+        width: 12vh;
+        border-radius: 100%;
+        border: none;
+        background-color: $azul-div;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
